@@ -1,0 +1,145 @@
+#main {
+  margin: 0 150px;
+}
+body {
+  font-family: "Be Vietnam Pro", sans-serif;
+  font-family: "Licorice", cursive;
+  font-family: "Lobster", cursive;
+  font-family: "Roboto Slab", serif;
+}
+h1 {
+  font-size: 26px;
+}
+h2 {
+  font-size: 22px;
+}
+.container {
+  display: flex;
+  margin: 0 30px;
+}
+.container .col {
+  width: 50%;
+}
+.container .vertical {
+  border-left: 4px solid rgb(21, 21, 63);
+  border-radius: 10px;
+  height: 76px;
+  position: absolute;
+  margin-left: -12px;
+  margin-top: 29px;
+}
+.container .col1 {
+  margin-top: 7%;
+}
+.container .col1 p {
+  text-align: justify;
+}
+h1,
+h2 {
+  font-family: "Licorice", cursive;
+  font-family: "Lobster", cursive;
+  font-family: "Roboto Slab", serif;
+}
+#hero-section h2 {
+  color: rgb(158, 19, 19);
+}
+#hero-section h1 {
+  color: rgb(21, 21, 63);
+}
+.col button {
+  background-color: rgb(236, 142, 142);
+  padding: 10px 35px;
+  border-color: rgb(158, 19, 19);
+  border-radius: 5px;
+  color: rgb(21, 21, 63);
+  font-weight: 600;
+}
+.col button:hover {
+  background-color: rgb(158, 19, 19);
+  box-shadow: 0 0 10px rgb(21, 21, 63);
+  color: #fff;
+}
+.col2 img {
+  width: 55%;
+  padding-left: 35%;
+}
+#skills {
+  margin: 0 -18px;
+}
+#skills h1 {
+  text-align: center;
+  margin-top: 45px;
+  margin-bottom: -18px;
+}
+#skills .container h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+#skills h3 {
+  text-align: center;
+}
+.style {
+  box-shadow: 0 0 10px rgb(158, 19, 19);
+  border-radius: 17px;
+  width: 50%;
+  margin: 0 20px;
+  padding: 10px 20px;
+  text-align: justify;
+}
+.style:hover {
+  box-shadow: 0 0 10px rgb(21, 21, 63);
+}
+#service {
+  margin-top: 25px;
+}
+#service .col2 img,
+#nature .col2 img {
+  padding-left: 0;
+  width: 355px;
+  height: 320px;
+  margin-top: 50px;
+}
+#nature .col2 img {
+  padding-left: 22%;
+}
+#service .col1,
+#nature .col1 {
+  width: 60%;
+}
+#gallery {
+  margin: 65px 0;
+}
+#gallery h1 {
+  text-align: center;
+  margin-bottom: 50px;
+  margin-top: 15px;
+}
+.contain {
+  max-width: 1150px;
+  margin: auto;
+  display: flex;
+}
+.contain .col {
+  margin: 5px;
+  width: 338px;
+  margin-left: 0;
+}
+.contain .col img {
+  width: 100%;
+  height: auto;
+  padding-left: 30px;
+}
+.img-title {
+  padding: 15px;
+  padding-left: 75px;
+  text-align: center;
+}
+footer {
+  background-color: rgb(6, 6, 26);
+  padding: 30px;
+}
+footer h3,
+footer p {
+  text-align: center;
+  color: white;
+}
